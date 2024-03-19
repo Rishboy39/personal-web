@@ -1,0 +1,139 @@
+img{
+position: fixed;
+ width: 1300px;
+ z-index: -10;
+ opacity: 1;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  width: 6px;
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(196, 194, 194);
+  border-radius: 7px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(168, 167, 167);
+  border-radius: 7px;
+}
+
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  .content {
+    position: absolute;
+    z-index: 1;
+    padding: 20px;
+  }
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #0284ff; /* Dark background color */
+ 
+  
+}
+
+/* Style the list items */
+nav ul {
+  overflow: hidden; /* Hide overflowing content */
+}
+
+nav ul li {
+  float: left; /* Float list items side by side */
+}
+
+/* Style the links */
+nav ul li a {
+  display: block; /* Display links as block elements */
+  color: rgb(0, 0, 0); /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  padding: 15px 20px; /* Add padding */
+  font-size:2rem;
+}
+
+/* Change link color on hover */
+nav ul li a:hover {
+  background-color: #ff3434; /* Darker background color */
+}
+
+    
+  .main{
+
+    color: rgb(0, 0, 0); 
+    text-align: center;
+  }
+  .typing-text {
+    position: relative  ;  
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: -80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+  }
+.nav_logo{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  z-index: 100;
+  font-size: .7rem;
+  top: -10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+  margin-bottom:.2px;
+}
+.information {
+  
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+
+
+.content h1 {
+  flex: 1; /* Allow content to grow to fill available space */
+  font-size: 40px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 600px;
+  right: 580px;
+}
+.content p {
+  flex: 3; /* Allow content to grow to fill available space */
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 0px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: center;
+  padding: 15px;
+  opacity: .8 ;
+}
+.portfolio{
+  
+  
+}
