@@ -39,3 +39,12 @@ document.addEventListener('DOMContentLoaded', function() {
   
     background.style.transform = `translate(${moveX}px, ${moveY}px)`;
   });
+
+  window.addEventListener('scroll', function() {
+    var content = document.getElementById('back');
+    var position = content.getBoundingClientRect();
+
+    if (position.top <= window.innerHeight * 0.25) { // Adjust this threshold as needed
+        content.style.opacity = 1;
+    }
+});

@@ -21,16 +21,27 @@ html{
   border-radius: 7px;
 }
 
-  .background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  .back {
+    width: 1300px; /* Adjust the width as needed */
+    height: 700px; /* Adjust the height as needed */
+    position: absolute;
     z-index: -1;
+    background-color: #A7A598;
+  }
+  .back p{
+    position: relative;
+    top: 520px;
+    left: 309px;
+    z-index: 2px;
+    font-family: "Shippori Antique B1", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 3rem;
+    color: #000000;
+
   }
   .content {
-    position: absolute;
+    position: relative;
     z-index: 1;
     padding: 20px;
   }
@@ -49,8 +60,8 @@ ul {
 
 /* Style the navigation bar */
 nav {
-  background-color: #0284ff; /* Dark background color */
- 
+  
+ z-index: 5px;
   
 }
 
@@ -61,6 +72,7 @@ nav ul {
 
 nav ul li {
   float: left; /* Float list items side by side */
+  
 }
 
 /* Style the links */
@@ -68,13 +80,22 @@ nav ul li a {
   display: block; /* Display links as block elements */
   color: rgb(0, 0, 0); /* Text color */
   text-decoration: none; /* Remove underline from links */
-  padding: 15px 20px; /* Add padding */
+  padding: 9px 12px; /* Add padding */
+  margin-top: 3px;
+  margin-left:2px ;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
   font-size:2rem;
+  z-index: 2;
 }
 
 /* Change link color on hover */
 nav ul li a:hover {
-  background-color: #ff3434; /* Darker background color */
+  background-color: #e5e5e5; /* Darker background color */
+  border-radius: 50px;
+  transition: background-color 0.5s ease-in-out;
+
 }
 
     
@@ -101,7 +122,9 @@ nav ul li a:hover {
   z-index: 100;
   font-size: .7rem;
   top: -10px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
   margin-bottom:.2px;
 }
 .information {
@@ -109,6 +132,21 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   margin-top: 200px;
+}
+
+.content img{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0; /* Remove default margin */
+  padding: 50px 350px;
+  
+}
+.content p{
+
+  
 }
 
 
